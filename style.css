@@ -1,0 +1,235 @@
+/* MAIN */
+body{
+    background-color:rgb(14, 14, 14);
+    margin: 0;
+    padding: 0;
+}
+.card, img{
+    background-color: rgb(142, 199, 221) ;
+    height: 75px;
+    padding-left: 3px;
+}
+/* OPTION */
+.buttons{
+    background-color: rgb(132, 190, 212);
+    display: flex;
+}
+button{
+    background-color: rgba(137, 43, 226, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 30px;
+    width: auto;
+}
+/* BANNER */
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+    padding-top: 42%;
+    background: url('images/WELCOME.png') no-repeat center;
+    background-size: cover;
+    border: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bodytext{
+    font-size: 17px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+/* PORTALS */
+.card1{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card2{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner2.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card3{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner3.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card4{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner4.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card5{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner5.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card6{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner6.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card7{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner7.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card8{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner8.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card9{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner9.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.card10{
+    border: black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    background: url('images/pbanner10.jpg');
+    color: white;
+    padding: 1rem;
+    height: 8rem;
+}
+.cards{
+    padding: 1.3rem;
+    font-size: 12px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    text-shadow: 3px 4px 4px #000000;
+}
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+}
+/* test
+@media (min-width: 100px) {
+    .cards { padding: 2.3rem;}
+} */
+/* Animation for logo */
+.card, img{
+    transition: transform .3s; /* Animation */
+}
+.card, img:hover{
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* Animation for buttons */
+button {
+    transition: transform .2s;
+    margin: auto;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    transform: scale(1.1);
+}
+/* Animation for portals */
+.card1{
+    transition: transform .3s; /* Animation */
+}
+.card1:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card2{
+    transition: transform .3s; /* Animation */
+}
+.card2:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card3{
+    transition: transform .3s; /* Animation */
+}
+.card3:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card4{
+    transition: transform .3s; /* Animation */
+}
+.card4:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card5{
+    transition: transform .3s; /* Animation */
+}
+.card5:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card6{
+    transition: transform .3s; /* Animation */
+}
+.card6:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card7{
+    transition: transform .3s; /* Animation */
+}
+.card7:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card8{
+    transition: transform .3s; /* Animation */
+}
+.card8:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card9{
+    transition: transform .3s; /* Animation */
+}
+.card9:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card10{
+    transition: transform .3s; /* Animation */
+}
+.card10:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.end{
+    color: rgb(37, 37, 37);
+    font-size: 6px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

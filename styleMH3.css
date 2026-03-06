@@ -1,0 +1,103 @@
+/* MAIN */
+body{
+    background-color:rgb(14, 14, 14);
+    margin: 0;
+    padding: 0;
+}
+.card, img{
+    background-color: rgb(142, 199, 221);
+    height: 75px;
+    padding-left: 3px;
+}
+/* OPTION */
+.buttons{
+    background-color: rgb(132, 190, 212);
+    display: flex;
+    
+}
+button{
+    background-color: rgba(137, 43, 226, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 30px;
+    width: auto;
+}
+/* Animation for logo */
+.card, img{
+    transition: transform .3s; /* Animation */
+}
+.card, img:hover{
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* Animation for banner text */
+.name{
+    transition: transform .3s; /* Animation */
+}
+.name:hover {
+    transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+@media (min-width: 1000px) {
+    .name{
+        transition: transform .3s; /* Animation */
+    }
+    .name:hover {
+        transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+}
+/* Animation for buttons */
+button {
+    transition: transform .2s;
+    margin: auto;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    transform: scale(1.1);
+}
+/* Animation for banner text */
+.name{
+    transition: transform .3s; /* Animation */
+}
+.name:hover {
+    transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+@media (min-width: 1000px) {
+    .name{
+        transition: transform .3s; /* Animation */
+    }
+    .name:hover {
+        transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+}
+/* BANNER */
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+    padding-top: 29%;
+    background: url('images/pbanner8.jpg') no-repeat center;
+    background-size: cover;
+    border: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.medicine{
+    font-size: 17px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.name{
+    color: #ffffff;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    text-shadow: 3px 4px 4px #000000;
+}
+.end{
+    color: rgb(37, 37, 37);
+    font-size: 6px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
