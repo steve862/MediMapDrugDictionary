@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleME2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="card">
+            <img src="images/logo.png">
+        </div>
+        <div class="buttons">
+            <div class="home">
+                <button type="button" onclick="location.href='index.html'">Home</button>
+            </div>
+            <div class="news">
+                <button type="button" onclick="location.href='reference.html'">Reference</button>
+            </div>
+            <div class="credits">
+                <button type="button" onclick="location.href='aboutus.html'">AboutUs</button>
+            </div>
+            <div class="healthproblems">
+                <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+                <script>
+                    $(function() {
+                        $("#visible").click(function() {
+                            $('#invisible').toggleClass("show");
+                        });
+                    });
+                </script>
+                <style>
+                    .hide{display: none;
+                        margin-right: 334px;
+                        text-align: center;
+                    
+                    }
+                    .show{display: block;
+                        margin-right: 334px;
+                        text-align: center;
+                    }
+                </style>
+                <div class="hi">
+                    <button id="visible">Health Problems</button>
+                    <div id="invisible" class="hide">
+                        <button type="button" onclick="location.href='portal.html'">-Hypertensiom-</button>
+                        <button type="button" onclick="location.href='portal2.html'">-Allery-</button>
+                        <button type="button" onclick="location.href='portal3.html'">-Stroke-</button>
+                        <button type="button" onclick="location.href='portal4.html'">-Coronary hearth disease-</button>
+                        <button type="button" onclick="location.href='portal5.html'">-Uti-</button>
+                        <button type="button" onclick="location.href='portal6.html'">-Diabetes-</button> 
+                        <button type="button" onclick="location.href='portal7.html'">-Tuberculosis-</button>
+                        <button type="button" onclick="location.href='portal8.html'">-Flu-</button>
+                        <button type="button" onclick="location.href='portal9.html'">-Cancer-</button>
+                        <button type="button" onclick="location.href='portal10.html'">-Immune booster-</button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <main class="container">
+            <div class="banner">
+                <div class="name">
+                    <h1 type="h1" onclick="location.href='portal5.html'">-UTI-</h1>
+                </div>
+            </div>
+        </main>
+    </header>
+    <div class="medicine">
+        <h1>AMOXICILLIN</h1>
+    </div>
+    <div class="info">
+        <div class="description">
+            <h2>Description:</h2>
+            <p>Amoxicillin, an aminopenicillin, was created by adding an extra amino group to penicillin in order to fight antibiotic resistance.</p>
+        </div>
+        <div class="description2">
+            <h2>Function and Usual Dosage:</h2><p>
+                <br>-Amoxicillin is used to treat a wide range of bacterial infections, including tonsillitis, bronchitis, pneumonia, and infections of the skin, ear, nose, throat, and urinary tract
+                <br>-Proper dosage: 250 mg orally every 8 hrs or 500 mg every 12 hrs
+            </p>
+        <div class="description3">
+            <h2>Common Side Effects:</h2>
+            <p><br>-Severe stomach pain 
+               <br>-Rash  
+               <br>-Diarrhea
+            </p>
+        </div>
+    </div>
+    <div class="end">
+        <h1>@2024 MEDIMAP Drug Dictionary</h1>
+    </div>
+</body>
